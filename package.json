@@ -1,0 +1,29 @@
+{
+  "name": "apms_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run --env sprint='sprint 1',project='Stage'",
+    "send-email": "node sendEmail.js",
+    "test-and-send-email": "npm run test && npm run send-email"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.12.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-multi-reporters": "^1.6.4",
+    "cypress-parallel": "^0.14.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "archiver-zip-encrypted": "^2.0.0",
+    "nodemailer": "^6.9.14",
+    "nodemailer-smtp-transport": "^2.7.4"
+  }
+}

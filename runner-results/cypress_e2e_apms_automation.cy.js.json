@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 13,
+  "passes": 10,
+  "pending": 0,
+  "failures": 3,
+  "start": "2024-07-01T14:23:47.683Z",
+  "duration": 120591,
+  "file": "cypress/e2e/apms_automation.cy.js"
+}

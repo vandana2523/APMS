@@ -1,0 +1,53 @@
+###############################################################
+For the Setup  - 
+###############################################################
+1.Cypress 
+npm install cypress --save-dev
+
+2.Mocha awesome reporter
+npm i --save-dev cypress-mochawesome-reporter
+
+3.archiver
+npm install archiver
+
+4.nodemailer
+npm install nodemailer
+
+5.nodemailer-smtp-transport
+npm install nodemailer-smtp-transport
+
+
+###################################################################
+To run command - 
+###################################################################
+1.Command to run automation file -
+npx cypress run  --env sprint='<sprint name>',project='<Partial or full project name>'
+Example -
+npx cypress run  --env sprint='sprint 1',project='Stage'
+2.Command to send email -
+node sendEmail.js "Remap101.co.uk Enhancements" "Milestone 2"
+Example - 
+node sendEmail.js 
+
+####################################################################
+Email integration/SMTP configuration-
+####################################################################
+Reference site - 
+https://nicesender.com/developers/api/#smtp
+
+New setup - 
+1.Signup 
+2.Go to automation
+3.Click on the API SMTP details
+4.Activate the API (Have a cup of tea will take time :) )
+4.Copy those and replace into the sendEmail.js file
+
+Current account details - 
+
+Id: tarun.arora.ds@gmail.com
+pwd: Dotsquares@13#
+
+
+####################################
+To run both commands - 
+./run.sh 'project_name' 'Sprint_name'
