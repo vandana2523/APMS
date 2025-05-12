@@ -51,3 +51,5 @@ pwd: Dotsquares@13#
 ####################################
 To run both commands - 
 ./run.sh 'project_name' 'Sprint_name'
+
+./run.sh 'C360 Python' ' V7 Inspector'

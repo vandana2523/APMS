@@ -51,7 +51,7 @@ function createZipArchive(folderPath, outputZipPath, callback) {
 function sendEmailWithAttachment() {
   const mailOptions = {
     from: "tarun.arora.ds@gmail.com", // Replace with your NiceSender email
-    to: "hitesh.jangid@dotsquares.com", // Replace with the recipient's email
+    to: ["vandana.bajpai@dotsquares.com", "manita.saxena@dotsquares.com", "tarun.arora@dotsquares.com","vijendra.singhal@dotsquares.com","bhawani.singh@dotsquares.com"], // Replace with the recipient's email
     subject: `Automated project audit report for ${projectName} (${sprintName})`,
     text: "Please find the attached project audit report.",
     html: `
