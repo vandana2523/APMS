@@ -4,8 +4,8 @@ describe("APMS - Project Audit and Insights", () => {
     const sprint_name = Cypress.env("sprint");
  
     cy.visit("https://apms.dotsquares.com/");
-    cy.get("#Email").type("vandana.bajpai@dotsquares.com");
-    cy.get("#Password").type("Vandana25@");
+    cy.get("#Email").type("hgjkhkhkhk@gmail.com");
+    cy.get("#Password").type("hbkjhkhk");
     cy.get("input[type='submit']").click();
     cy.wait(2000);
  
